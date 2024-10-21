@@ -1,12 +1,24 @@
 ---
 home: true
-heroText: 欢迎来到Lutra的博客
-tagline: 一起来探讨前端带来的乐趣吧！
-bgImageStyle: { height: "450px" }
-isShowTitleInHome: false,
 modules:
-  # - BannerBrand
+  - BannerBrand
   - Blog
-  # - MdContent
+  - MdContent
   # - Footer
+bannerBrand:
+  bgImage: '/bg.svg'
+  title: Lutra's Blog世界
+  description: 欢迎你的到来，一起探索更多的未来。
+  tagline: 
+  # buttons:
+  #   - { text: Guide, link: '/docs/guide/introduce' }
+  #   - { text: Default Style, link: '/docs/style-default-api/introduce', type: 'plain' }
+  # socialLinks:
+  #   - { icon: 'LogoGithub', link: 'https://github.com/vuepress-reco/vuepress-theme-reco' }
+blog:
+  socialLinks:
+    - { icon: 'LogoGithub', link: 'https://github.com/zengjielin' }
+isShowTitleInHome: true
+# actionText: About
+# actionLink: /views/other/about
 ---

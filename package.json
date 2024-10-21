@@ -1,14 +1,20 @@
 {
-  "name": "lutra'blog",
-  "version": "1.0.0",
-  "author": "reco_luan",
+  "name": "lutra-blog",
+  "version": "2.0.0",
+  "description": "Lutra's Blog",
+  "repository": "https://github.com/zengjielin/lutra-blog",
+  "author": "zengjielin <248717607@qq.com>",
+  "license": "MIT",
   "scripts": {
-    "dev": "vuepress dev . --open --host \"localhost\"",
+    "dev": "vuepress dev .",
+    "start": "vuepress dev .",
     "build": "vuepress build ."
   },
-  "devDependencies": {
-    "vuepress": "1.9.7",
-    "vuepress-theme-reco": "1.6.17"
-  },
-  "description": "lutra'blog"
+  "dependencies": {
+    "vue": "^3.4.27",
+    "vuepress": "2.0.0-rc.14",
+    "vuepress-theme-reco": "2.0.0-rc.22",
+    "@vuepress/bundler-vite": "2.0.0-rc.14",
+    "@vuepress/bundler-webpack": "2.0.0-rc.14"
+  }
 }
