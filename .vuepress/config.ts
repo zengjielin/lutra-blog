@@ -8,7 +8,7 @@ export default defineUserConfig({
   description: "Lutra's Blog or Note",
   bundler: viteBundler(),
   // bundler: webpackBundler(),
-  // base: "/lutra-blog/",
+  base: "/lutra-blog/",
   theme: recoTheme({
     style: "@vuepress-reco/style-default",
     logo: "/logo.jpg",
