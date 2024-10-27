@@ -1,6 +1,6 @@
 ---
 title: typescript泛型使用
-date: 2024/02/02
+date: 2024/08/09
 tags:
   - Typescript
 categories:
