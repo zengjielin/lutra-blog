@@ -18,8 +18,8 @@ bannerBrand:
 blog:
   socialLinks:
     - { icon: 'LogoGithub', link: 'https://github.com/zengjielin' }
-    - { icon: "reco-bokeyuan", link: "https://www.cnblogs.com/zengjielin/" }
-    - { icon: "LogoGitee", link: "https://gitee.com/zengjielin" }
+    - { icon: "LogoGithub", link: "https://www.cnblogs.com/zengjielin/" }
+    - { icon: "LogoGithub", link: "https://gitee.com/zengjielin" }
 isShowTitleInHome: true
 # actionText: About
 # actionLink: /views/other/about

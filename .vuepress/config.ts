@@ -14,7 +14,7 @@ export default defineUserConfig({
     logo: "/logo.jpg",
     author: "zengjielin",
     authorAvatar: "/avatar.jpg",
-    docsRepo: "https://github.com/zengjielin/lutra-blog",
+    docsRepo: "https://github.com/zengjielin",
     docsBranch: "main",
     docsDir: "",
     lastUpdatedText: "",
@@ -44,7 +44,7 @@ export default defineUserConfig({
       {
         text: "文档",
         children: [
-          { text: "项目截图", link: "/docs/screen-shot/易创宝管理系统" },
+          { text: "项目截图", link: "/docs/screen-shot/REDEME" },
         ],
       },
     ],
