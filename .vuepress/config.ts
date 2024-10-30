@@ -24,6 +24,7 @@ export default defineUserConfig({
         {
           text: "项目截图",
           children: [
+            "REDEME",
             "易创宝管理系统",
             "易创宝商品中心",
             "易创宝学习平台",
